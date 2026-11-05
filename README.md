@@ -25,13 +25,13 @@ writes a structured **Security Incident Report** with tables and severity flags.
 
 ## ✨ Features
 
-- 📜 Parses sshd `auth.log` and web access logs (`--format auto|auth|web`) using **Regex** + **Datetime**
-- 🌐 Failed attempts **grouped by source IP** with configurable threshold (default 5)
-- 🌙 **Off-hours access** detection (default business hours 08:00 to 20:00)
-- ⚡ **Rapid sequential attempts** (5+ failures in 60 s sliding window)
-- 🧨 **Known attack signatures**: root/admin/oracle usernames, path traversal, SQL injection, `/.env` probes, sqlmap/nikto user-agents
-- 🕵️ Username enumeration and **success-after-failures** (possible compromise)
-- 📊 Report separates **routine login errors** from **high-volume brute-force attacks**
+-  Parses sshd `auth.log` and web access logs (`--format auto|auth|web`) using **Regex** + **Datetime**
+-  Failed attempts **grouped by source IP** with configurable threshold (default 5)
+- **Off-hours access** detection (default business hours 08:00 to 20:00)
+-  **Rapid sequential attempts** (5+ failures in 60 s sliding window)
+-  **Known attack signatures**: root/admin/oracle usernames, path traversal, SQL injection, `/.env` probes, sqlmap/nikto user-agents
+-  Username enumeration and **success-after-failures** (possible compromise)
+-  Report separates **routine login errors** from **high-volume brute-force attacks**
 
 ## 🚦 Severity Levels
 
